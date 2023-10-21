@@ -5,8 +5,8 @@
 // 定义 CSS/JS
 const regex = '<head>';
 const replace_str = '<head>\
-<link rel="stylesheet" href="https://limbopro.com/CSS/Adblock4limbo.user.css" type="text/css" />\
-<script type="text/javascript" async="async" src="https://limbopro.com/Adguard/Adblock4limbo.user.js"></script>\
+<link rel="stylesheet" href="https://github.com/LimitAtago/Quantumult-X/blob/main/ccs" type="text/css" />\
+<script type="text/javascript" async="async" src="https://github.com/LimitAtago/Quantumult-X/blob/main/Adblock4limbo.user.js"></script>\
 '
 
 //<script type="text/javascript" async="async" src="https://limbopro.com/Adguard/crisp.js"></script>\
