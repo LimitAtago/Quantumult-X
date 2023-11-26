@@ -51,9 +51,9 @@ const country = convertToSimplifiedChinese(city_check(obj['country']));
 const city = convertToSimplifiedChinese(city_check(obj['city']));
 
 // 展示在顶部开关左边（第1行） 格式：国旗 国家名 地区名
-var title =isp_check(obj['as']);
+var title = flags.get(obj['as']) + ' ' + append(country, city)+obj['query'] ;
 // 展示在顶部开关左边（第2行）
-var subtitle = flags.get(obj['countryCode']) + ' ' + append(country, city)+obj['query'] ;
+var subtitle =isp_check(obj['countryCode']);
 // 不展示
 var ip = obj['query'];
 // 长按节点选择“查看节点信息”时的信息
